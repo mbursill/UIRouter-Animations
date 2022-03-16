@@ -1,3 +1,5 @@
-<h1>Page 2!</h1>
+<section class="container" *ngIf="!showIt" @animateSectionsFadeIn>
+  <p>This shouldn't animate on page load :(</p>
+</section>
 
 Go to <a uiSref="pages.page1">Page 1</a>
